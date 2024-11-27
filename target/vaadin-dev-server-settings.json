@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/Users/anzhela/IdeaProjects/telephone_directory/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/anzhela/IdeaProjects/telephone_directory/./frontend/generated/jar-resources",
+  "staticOutput": "/Users/anzhela/IdeaProjects/telephone_directory/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/Users/anzhela/IdeaProjects/telephone_directory/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/Users/anzhela/IdeaProjects/telephone_directory/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/Users/anzhela/IdeaProjects/telephone_directory/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/anzhela/IdeaProjects/telephone_directory/src/main/dev-bundle/config",
+  "jarResourcesFolder": "/Users/anzhela/IdeaProjects/telephone_directory/./frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "/Users/anzhela/IdeaProjects/telephone_directory/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
