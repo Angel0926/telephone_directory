@@ -19,6 +19,9 @@ public class Contact {
         this.email = email;
     }
 
+    public Contact(String johnDoe, String s) {
+    }
+
     public String getId() {
         return id;
     }

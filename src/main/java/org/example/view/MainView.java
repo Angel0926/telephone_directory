@@ -1,5 +1,6 @@
 package org.example.view;
 
+import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
@@ -23,8 +24,13 @@ public class MainView extends VerticalLayout {
         grid.setColumns("name", "email", "phone"); // Указываем поля для отображения
 
         add(grid); // Добавляем таблицу на страницу
-    }
 
+        Button downloadPdfButton = new Button("Download Contacts PDF", e -> {
+            getUI().ifPresent(ui -> ui.getPage().open("/api/reports/contacts/pdf"));
+        });
+
+        add(downloadPdfButton);
+    }
     // Пример класса Contact
     public static class Contact {
         private String name;
