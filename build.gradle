@@ -19,6 +19,8 @@ dependencies {
 
     // Vaadin
     implementation 'com.vaadin:vaadin-spring-boot-starter:24.2.6'
+    implementation 'org.apache.pdfbox:pdfbox:2.0.29'
+
 
     // Инструменты для разработки (опционально)
     developmentOnly 'org.springframework.boot:spring-boot-devtools'

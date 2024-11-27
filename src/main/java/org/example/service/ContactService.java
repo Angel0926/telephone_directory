@@ -1,7 +1,6 @@
 package org.example.service;
 
-import com.example.phonebook.model.Contact;
-
+import org.example.model.Contact;
 import org.example.repository.ContactRepository;
 import org.springframework.stereotype.Service;
 

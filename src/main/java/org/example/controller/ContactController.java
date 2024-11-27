@@ -1,7 +1,6 @@
 package org.example.controller;
 
-import com.example.phonebook.model.Contact;
-
+import org.example.model.Contact;
 import org.example.service.ContactService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

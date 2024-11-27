@@ -1,4 +1,4 @@
-package com.example.phonebook.model;
+package org.example.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
